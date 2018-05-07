@@ -1,0 +1,79 @@
+p{
+	font-size: 16;
+	margin: 1%;
+}
+h5{
+	margin: 1%;
+}
+#returnpage{
+	border-color: #0000FF;
+}
+#returnpage >div > a{
+	color: #0000FF;
+}
+#main{
+	margin-top:10%;
+	margin-bottom:8%;
+	text-align: right;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+#firstbox{
+	border-style: none none solid none;
+	border-color: #C1C1C1;
+}
+#secondbox{
+	float: right;
+	width: 30%;
+}
+#upbox{
+	margin-top: 5%;
+}
+
+#thirdbox{
+	float: right;
+	width: 60%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+#returnimg{
+	float: right;
+	width: 80%;
+}
+#formbox{
+	box-shadow: 0px 5px 5px #C5C5C5,
+        -5px 5px 5px #C1C1C1, 5px 5px 5px #C1C1C1;
+	color: #0000FF;
+	margin-top: 5%;
+	height: 25%
+}
+#formbox p{
+	font-size: 8;
+}
+#formtitle{
+	border-style: none none solid none;
+	border-color: #C1C1C1;
+	margin: 2%;
+}
+#forminputs{
+    border-style: none none solid none;
+    border-color: #C1C1C1;
+    padding-bottom: 5%;
+}
+.input1{
+	border-radius: 12px;
+	background-color: #DDDDDD;
+	width: 90%;
+	margin: 2%;
+	padding: 2%;
+}
+#sabtbutton{
+	background-color: #0000FF;
+	color: #FFFFFF;
+	width: 90%;
+	float: right;
+	margin: 2%;
+	padding: 2%;
+}
