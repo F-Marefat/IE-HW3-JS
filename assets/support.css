@@ -1,0 +1,39 @@
+.popup-box{
+    width : 12%;
+    position: fixed;
+    z-index : 1;
+    height : 7%;
+    top: 95.5%;
+    left : 87%;
+    margin-bottom : 5%;
+    margin-right : 1%;
+    background-color : #0000FF;
+    border-radius-bottom : 0px;
+    border-radius : 12px;
+    color : #FFFFFF;
+    padding-bottom:0;
+}
+.popup-icon{
+    width:30px;
+    height:30px;
+   	float:right;
+   	margin-right:10%;
+   	margin-top: 3%;
+   	opacity: 1;
+   	background: #C1C1C1;
+   	border-radius: 12px;
+}
+.popup-box button{
+    float: left;
+    width : 70%;
+    height: 70%;
+    margin: 0;
+    direction: rtl;
+    padding-top: 0;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border: none;
+}
+.popup-box button : onclick{
+    color : #000000;
+}
