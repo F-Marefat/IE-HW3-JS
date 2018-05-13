@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="assets/global.css" type="text/css">
 	<link rel="stylesheet" href="assets/contact.css" type="text/css">
 	<link rel="stylesheet" href="assets/support.css" type="text/css">
+	<script src="js/Support.js"></script>
 
 </head>
 
@@ -221,9 +222,51 @@
 	</div>
 	
 </footer>
-<div class="popup-box" onclick="">
-	<span> پشتیبانی آنلاین </span>
+<div class="popup-box" id="popbox">
+	<button onclick="open_popup_window()"> پشتیبانی آنلاین </button>
 	<img class="popup-icon" src="img/chat.png">
+</div>
+<div class="popup-window" id="popwindow">
+	<div class="backup-profile">
+		<div class="prof">
+			<div class="img-prof">
+				<img class="user-prof-img" id="backup-img" src="" >
+			</div>
+			<div class="matn" id="backup-name">
+
+			</div>
+
+		</div>
+		<div class="minbut">
+			<button class="minimize-button" id="minbutt" onclick="close_popup_window()"><b>_</b></button>
+		</div>
+	</div>
+	<div class="user-box">
+		<div class="user-chatroom" id="chatroom">
+			<!--<div class="chat-message">-->
+			<!--<div class="chat-prof">-->
+			<!--<img class="user-prof-img" src="img/profile.png">-->
+			<!--</div>-->
+			<!--<div class="chat-text">-->
+			<!--سلام من پشتیبانم بفرمایید-->
+			<!--</div>-->
+			<!--</div>-->
+			<!--<div class="chat-message-backup">-->
+			<!--<div class="chat-prof-backup">-->
+			<!--<img class="user-prof-img" src="img/profile.png">-->
+			<!--</div>-->
+			<!--<div class="chat-text-backup">-->
+			<!--سلام-->
+			<!--</div>-->
+			<!--</div>-->
+		</div>
+		<div class="user-input">
+			<div class="user-input-box">
+				<input class="text-input" id="message" type="text" placeholder="متن پیام به پشتیبانی" value=""/>
+				<button class="button-input" id="send-but" onclick="sendmessage()"><img class="send-icon" src="img/send-icon.png"></button>
+			</div>
+		</div>
+	</div>
 </div>
 </body>
 
